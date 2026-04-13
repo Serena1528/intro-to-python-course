@@ -10,6 +10,8 @@ unit_price = float(input('How much does one item cost? '))
 #calculates the total cost based on the quantity of items sold and the unit price
 total = items_sold * unit_price
 
+student_total = total/2
+
 #adds a line beforehand for a cleaner visual effect
 print()
 
@@ -18,3 +20,5 @@ print(item_name + ' Sales')
 print('Quantity sold: ' + str(items_sold))
 print('Unit price: $' + str(unit_price))
 print('Total: $' + str(total))
+print('Total price for a student: $' + str(student_total))
+print(item_name + ' has ' + str(len(item_name)) + ' letters')
